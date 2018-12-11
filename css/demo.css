@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #b25f27;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background: white;
+    border-radius: 30%;
+    box-shadow: 5px 5px 5px rgba(black, black, black, 0.5);
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    text-align: center;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    cursor: pointer;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    transform: perspective(800px) rotateX(45deg);
+    margin: 20px auto;
+    border: 1px solid #b25f27;
+    display: none;
+}
+.context{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    margin-left: -100px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    display: none;
+}
+.block{
+    width : 49px;
+    height: 49px;
+    background: green;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+.show{
+    background-image: url('../img/lei.jpg');
+    background-size: 100% 100%;
+}
+.num{
+    width: 49px;
+    height: 49px;
+    line-height: 49px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: yellow;
+}
+.qiImg{
+    width: 49px;
+    height: 49px;
+    background-image: url(../img/qi.png);
+    background-size: 100% 100%;
+}
